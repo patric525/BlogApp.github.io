@@ -1,0 +1,116 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.outer-con {
+  display: flex;
+  flex-direction: row;
+  width: 56rem;
+  margin-top: 4rem;
+  margin-left: 16rem;
+  border: 1px solid rgb(0, 128, 0, 0.5);
+  border-radius: 2rem;
+}
+
+.right {
+  background-color: rgb(0, 128, 0, 0.5);
+  color: white;
+  position: relative;
+  right: -17rem;
+  height: 23rem;
+  width: 28rem;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-con {
+  margin-left: -9rem;
+  position: relative;
+  left: 12rem;
+}
+
+.fa-id-card {
+  position: absolute;
+  right: 1rem;
+  top: 5.9rem;
+}
+
+.fa-lock {
+  position: absolute;
+  right: 1rem;
+  top: 16rem;
+}
+
+.fa-envelope {
+  position: absolute;
+  right: 1rem;
+  top: 12.6rem;
+}
+
+.fa-user {
+  position: absolute;
+  right: 1rem;
+  top: 9.1rem;
+}
+
+.form-login {
+  width: 17rem;
+}
+
+.login-right {
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  height: 23rem;
+  width: 29rem;
+}
+
+.email {
+  position: absolute;
+  left: 35rem;
+  top: 17.1rem;
+}
+
+.password {
+  position: absolute;
+  left: 35rem;
+  top: 20.5rem;
+}
+
+.outer-login {
+  display: flex;
+  flex-direction: row;
+  width: 53rem;
+  margin-top: 4rem;
+  margin-left: 16rem;
+  border: 1px solid rgb(0, 128, 0, 0.5);
+  border-radius: 2rem;
+}
+
+.card {
+  width: 26rem;
+  margin-left: 29rem;
+}
+
+.home {
+  background-color: rgb(0, 128, 0, 0.5);
+  position: absolute;
+  bottom: 1.6rem;
+  width: 51rem;
+  left: 17rem;
+  height: 34rem;
+}
+
+.btn2{
+  position: absolute;
+  top: 30rem;
+  left: 37rem;
+  font-size: 2rem;
+  background-color: green;
+  outline:none;
+  border: 0;
+  border-radius: 0.5rem;
+}
